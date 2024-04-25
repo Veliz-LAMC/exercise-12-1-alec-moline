@@ -120,6 +120,51 @@ section li {
 	padding-bottom: .35em;
 }
 
+/* the styles for the table */
+table {
+	border-collapse: collapse;
+	width: 80%;
+}
+
+table tr td:last-child {
+	text-align: right;
+}
+
+table th {
+	padding: 0.2em 0.3em;
+}
+
+thead {
+	border-top: 3px solid #800000;
+	border-bottom: 3px solid #800000;
+}
+
+tr td {
+	padding: 0.2em 0.5em;
+}
+
+.year-row {
+	text-align: center;
+}
+
+tbody > tr:nth-child(2) {
+	border-bottom: 3px solid #800000;
+}
+
+table > thead > tr > th:not(:first-child):not(:last-child) {
+	text-align: left;
+}
+
+tfoot {
+	border-top: 3px solid #800000;;
+	border-bottom: 3px solid #800000;
+	text-align: right;
+}
+
+#savings {
+	border-top: 3px solid #800000;
+}
+
 /* the styles for the article */
 article {
 	padding: .5em 0;
